@@ -84,7 +84,7 @@ export default class EventCalendar extends React.Component {
         headerStyle={this.props.headerStyle}
         renderEvent={this.props.renderEvent}
         eventTapped={this.props.eventTapped}
-        events={item}
+        events={this.props.events}
         width={width}
         styles={this.styles}
         scrollToFirst={scrollToFirst}
